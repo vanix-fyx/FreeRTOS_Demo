@@ -1,0 +1,44 @@
+# Keil/MDK build output directories
+Objects/
+Listings/
+**/Objects/
+**/Listings/
+
+# Keil/ARM build artifacts and intermediate files
+*.o
+*.obj
+*.axf
+*.elf
+*.bin
+*.hex
+*.d
+*.lst
+*.map
+*.dep
+*.crf
+*.htm
+*.html
+*.lnp
+
+# Keil user/session files
+*.uvguix.*
+*.uvgui.*
+*.uvgui_*
+*.uvoptx
+*.uvopt
+*.scvd
+*.dbgconf
+
+# Debug and generated configuration
+DebugConfig/
+**/DebugConfig/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.DS_Store
+Thumbs.db
